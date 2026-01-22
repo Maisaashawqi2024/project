@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - اسمك هنا</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; color: #333; }
+        header { background: #333; color: white; text-align: center; padding: 20px; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; }
+        section { padding: 20px; max-width: 1200px; margin: auto; }
+        .container { display: flex; justify-content: space-around; flex-wrap: wrap; }
+        .half { flex: 1; min-width: 300px; margin: 10px; }
+        h1, h2 { color: #007BFF; }
+        ul { list-style-type: none; padding: 0; }
+        li { background: white; margin: 10px 0; padding: 10px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        footer { background: #333; color: white; text-align: center; padding: 10px; }
+        @media (max-width: 768px) { .container { flex-direction: column; } }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>اسمك الكامل</h1>
+        <nav>
+            <a href="#home">الرئيسية</a>
+            <a href="#projects">المشاريع</a>
+            <a href="#skills">المهارات</a>
+            <a href="#contact">تواصل</a>
+        </nav>
+    </header>
+
+    <section id="home" class="container">
+        <div class="half">
+            <h2>مطور ويب وبرمجة</h2>
+            <p>مرحباً، أنا طالب في علوم الحاسوب مهتم بالبرمجة، قواعد البيانات، والأمن السيبراني. أعمل على مشاريع بسيطة باستخدام Python، SQL، وHTML/CSS.</p>
+        </div>
+        <div class="half">
+            <!-- أضف صورتك هنا -->
+            <img src="profile.jpg" alt="صورتك" style="width:100%; border-radius: 10px;">
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>مشاريعي</h2>
+        <ul>
+            <li>مشروع قاعدة بيانات Oracle 19c: إدارة بيانات الطلاب.</li>
+            <li>تطبيق To-Do List بـ Python في PyCharm.</li>
+            <li>اختبار أمني بـ DVWA على XAMPP.</li>
+            <li>موقع ويب بسيط بـ HTML/CSS (هذا الموقع!).</li>
+        </ul>
+    </section>
+
+    <section id="skills" class="container">
+        <div class="half">
+            <h2>المهارات</h2>
+            <ul>
+                <li>Python, SQL</li>
+                <li>HTML, CSS, JavaScript</li>
+                <li>Oracle 19c, XAMPP</li>
+                <li>PyCharm, Eclipse</li>
+            </ul>
+        </div>
+        <div class="half">
+            <h2>التعليم</h2>
+            <p>طالب في علوم الحاسوب - جامعة [اسم الجامعة]</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>تواصل معي</h2>
+        <p>البريد: your.email@example.com</p>
+        <p>GitHub: github.com/yourusername</p>
+        <p>LinkedIn: linkedin.com/in/yourprofile</p>
+    </section>
+
+    <footer>
+        © 2026 اسمك. جميع الحقوق محفوظة.
+    </footer>
+</body>
+</html>
